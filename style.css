@@ -1,0 +1,63 @@
+:root {
+  --color-bg: #69F7BE;
+  --color-text-main: #000000;
+  --color-primary: #FFFF00;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+  --font-family: "monospace";
+  --font-family-header: "monospace";
+}
+
+a {
+  color: white;
+}
+
+body {
+  background: url(https://cdn.glitch.me/2af48fe8-9e69-4912-9a47-cc9915f37136/Snap_1.gif?v=168057349533);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  cursor: url('https://cdn.glitch.global/2af48fe8-9e69-4912-9a47-cc991537136/blobGif.gif?v=1680586214303'), auto;
+}
+
+.titleContainer {
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  
+  width: 30%;
+  height: 40%;
+  
+  background: black;
+  background-size: cover;
+  
+  color: white;
+  text-align: center;
+  opacity: 85%;
+
+}
+
+.titleMain{
+  font-size: 30px;
+  margin: auto;
+  position: relative;
+  font-style: italic;
+  text-decoration: underline;
+  color: white;
+  text-align: center;
+}
+
+.titleMenu{
+  font-size: 30px;
+  position: relative;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+}
+  
+
